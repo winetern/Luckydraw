@@ -1,0 +1,98 @@
+{
+    "gap_between_PlatfomrmAndDesk": "false",
+    "Desk": [
+        {
+            "basePoint": 0,
+            "student": [
+                {"name": "彭水平"},
+                {"name": "常旭东"},
+                {"name": "刘诗涵"},
+                {"name": "刘笑"},
+                {"name": "刘锦程"}
+            ]
+        },
+        {
+            "basePoint": 0,
+            "student": [
+                {"name": "魏雨婷"},
+                {"name": "廖诗琪"},
+                {"name": "龙晓茜"},
+                {"name": "刘俊"},
+                {"name": "游文涛"}
+            ]
+        },
+        {
+            "basePoint": 0,
+            "student": [
+                {"name": "刘皓轩"},
+                {"name": "彭俊程"},
+                {"name": "周静怡"},
+                {"name": "陈婷"},
+                {"name": "刘继凯"},
+                {"name": "谭浩然"}
+            ]
+        },
+        {
+            "basePoint": 0,
+            "student": [
+                {"name": "尹薇"},
+                {"name": "龙思敏"},
+                {"name": "宋佳欣"},
+                {"name": "雷剑"},
+                {"name": "王怀玉"},
+                {"name": "陈成果"}
+            ]
+        },
+        {
+            "basePoint": 0,
+            "student": [
+                {"name": "刘淑媛"},
+                {"name": "彭仪棋"},
+                {"name": "马婷婷"},
+                {"name": "宋张长"},
+                {"name": "金咏康"},
+                {"name": "洪庆宇"}
+            ]
+        },
+        {
+            "basePoint": 0,
+            "student": [
+                {"name": "刘源"},
+                {"name": "胡亚军"},
+                {"name": "刘啸坤"},
+                {"name": "阳富洪"},
+                {"name": "宋英杰"},
+                {"name": "刘云轩"}
+            ]
+        },
+        {
+            "basePoint": 0,
+            "student": [
+                {"name": "谭茸文"},
+                {"name": "王瑶"},
+                {"name": "陈步冲"},
+                {"name": "李文"},
+                {"name": "刘俊廷"}
+            ]
+        },
+        {
+            "basePoint": 0,
+            "student": [
+                {"name": "阳思语"},
+                {"name": "綦金虎"},
+                {"name": "邓珵玥"},
+                {"name": "龙浩"},
+                {"name": "刘佳琪"}
+            ]
+        },
+        {
+            "basePoint": 0,
+            "student": [
+                {"name": "熊洁"},
+                {"name": "廖心雨"},
+                {"name": "马沐瑞"},
+                {"name": "陈景宏"}
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+-- Active: 1698313332959@@121.40.110.179@3306@luckydraw
+DELIMITER //
+CREATE TRIGGER updateStudentEndDate
+BEFORE INSERT on student
+FOR EACH ROW
+BEGIN
+    DECLARE old_id INT UNSIGNED;
+    SELECT baseinfoid INTO old_id FROM student WHERE baseinfoid=NEW.baseinfoid;
+    IF old_id IS NULL THEN
+    ELSE
+        DECLARE old_date DATE;
+        SELECT baseinfoid INTO old_id FROM student WHERE baseinfoid=NEW.joinTime;        
+END //
+DELIMITER;

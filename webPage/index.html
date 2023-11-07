@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'> 
+        <title>LuckyDraw</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+        <div id="headerArea">      <!-- 导航栏，用于切换页面-->
+            <ul id="nav">
+                <li class="navItem">抽签</li>
+                <li class="navItem">排行榜</li>
+                <li class="navItem">统计</li>
+            </ul>
+            <div id="set">    <!-- 用于切换班级-->
+                设置
+            </div>
+            <div id="classSwitch">    <!-- 用于切换班级-->
+                切换班级
+            </div>
+            <div id="account">
+                账户
+            </div>
+        </div>
+        <div id="studentInfoArea">
+            <div id="classroom">    <!-- 教室的区域-->
+                教室
+            </div>
+            <div id="detail">     <!-- 详情信息显示的区域-->
+                详情
+            </div>
+        </div>
+        <div id="operateArea">
+            <div id="toolbar">      <!-- 各种功能按钮显示的区域-->
+                <div id="alter" class="operateButton">
+                    修改
+                </div>
+                <div id="scoring" class="operateButton">
+                    计分
+                </div>
+                <div id="draw" class="operateButton">
+                    抽签
+                </div>
+                <div id="reset" class="operateButton">
+                    重置
+                </div>
+                <div id="submit" class="operateButton">
+                    提交
+                </div>
+            </div>
+            <div id="statusBar">    <!-- 状态栏的区域，显示一些基本信息或者点击元素时的反馈-->
+                状态栏
+                <form action="http://localhost:7007/upload" method="post" enctype="multipart/form-data">
+                    <input type="text" name="tableType" value="newStudentInitialize" style="display: none;">
+                    <input type="file" name="excel">
+                    <input type="submit" value="submit">
+                </form>
+                <form action="http://localhost:7007/upload" method="post" enctype="multipart/form-data">
+                    <input type="text" name="tableType" value="newStudentExam" style="display: none;">
+                    <input type="file" name="excel">
+                    <input type="submit" value="submit">
+                </form>
+            </div>
+        </div>
+    <script src="./js/initialize.js"></script>
+    </body>
+</html>

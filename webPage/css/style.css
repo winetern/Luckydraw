@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+#headerArea{
+    padding: 0px;
+    width: 1920px;
+    height: 90px;
+    border: 2px solid blue;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+#nav{
+    height: inherit;
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+}
+
+.navItem{
+    margin: 0px 20px;
+    padding: 10px;
+    width: 200px;
+    height: inherit;
+    white-space: nowrap;
+    border: 2px solid blue;
+    font-size: 20px;
+    text-align: center;
+    line-height: 90px;
+}
+
+#set{
+    border: 2px solid blue;
+    position: absolute;
+    right: 400px;
+    height: inherit;
+    width: 200px;
+}
+#classSwitch{
+    border: 2px solid blue;
+    position: absolute;
+    right: 200px;
+    height: inherit;
+    width: 200px;
+}
+
+#account{
+    border: 2px solid blue;
+    position: absolute;
+    right: 0px;
+    height: inherit;
+    width: 200px;
+}
+
+#studentInfoArea{
+    border: 2px solid blue;
+    width: 1920px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 890px;
+}
+
+#classroom{
+    border: 2px solid blue;
+    display: inline;
+    height: inherit;
+    width: 1420px;
+}
+
+#detail{
+    border: 2px solid blue;
+    display: inline;
+    height: inherit;
+    width: 500px;
+
+}
+
+#operateArea{
+    border: 2px solid blue;
+    width: 1920px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+
+#toolbar{
+    border: 2px solid blue;
+    height: inherit;
+    width: 1420px;
+    display: flex;
+    align-items: center;
+    /* gap: 200px; */
+}
+
+.operateButton{
+    margin: 0px 100px;
+}
+
+#draw{
+    margin: 0px 200px;
+}
+
+#statusBar{
+    border: 2px solid blue;
+    height: inherit;
+    width: 500px;
+}
